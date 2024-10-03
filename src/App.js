@@ -1,0 +1,32 @@
+import { Routes, BrowserRouter, Route, useLocation } from 'react-router-dom';
+import './App.css';
+import BackIm from './components/BackIm/BackIm';
+import Navbar from './components/Navbar';
+import About from './components/About/About';
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Content />
+    </BrowserRouter>
+  );
+}
+
+function Content() {
+  const location = useLocation();
+
+  return (
+    <>
+      <Routes>
+        <Route path='/' element={<h1>Welcome to the Homepage</h1>} />
+        <Route path='/about' element={<About />} />
+      </Routes>
+
+      {/* Render BackIm only on the homepage */}
+      {location.pathname === '/' && <BackIm />}
+    </>
+  );
+}
+
+export default App;

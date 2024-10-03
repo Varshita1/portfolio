@@ -1,0 +1,72 @@
+.back1{             /* Add some padding */
+    text-align: center; 
+    background-image: url('/public/p1.jpg');
+    background-size: cover;
+    background-position: center;    
+    height: fit-content;
+  }
+ 
+  .p1{
+    color:gainsboro;
+    font-size: 26px;
+    padding-top: 100px;
+  }
+  .p2{
+    color:white;
+    font-size: 70px;
+    font-weight:600;
+  }
+  .p3{
+    color:rgb(46, 161, 46);
+    font-size: 30px;
+  }
+  .about{
+    display: grid;
+    row-gap: 1px;
+  }
+  .photo {
+    flex: 1; /* Take up half the available space */
+    width: 200px;
+    padding-top: 120px;
+  }
+  .photo img{
+    height: 400px;
+    width: 50%;
+  }
+  
+  .main {
+   
+    flex: 1; /* Take up half the available space */
+    font-size: 20px;
+    color: rgb(9, 196, 9);
+    text-align-last: left;
+  }
+  .merge{
+    display: flex;
+  }
+  .intro {
+    font-size: 36px;
+    margin: 0; 
+    font-weight: 600;
+    text-align:left;
+    color:white;
+  }
+  .final{
+  
+    margin-left: 10px;
+    margin-right: 180px;
+    height: 600px;
+
+  }
+  .value{
+    text-align:left;
+    color:rgb(181, 178, 178);
+    font-family: poppins;
+    margin-top: 12px;
+  }
+  .value2{
+    text-align:left;
+    color:rgb(181, 178, 178);
+    font-family:poppins;
+    margin-top: 22px;
+  }
