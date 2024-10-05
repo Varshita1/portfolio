@@ -1,0 +1,75 @@
+.back2{     
+    margin-top: 0px;
+    text-align: center; 
+    background-image: url('/public/p1.jpg');
+    background-size: cover;
+    background-position: center;    
+    height: fit-content;/*we have to change it later*/
+  }
+  .p1{
+    color:gainsboro;
+    font-size: 20px;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    
+  }
+  .p2{
+    color:white;
+    font-size: 70px;
+    font-weight:600;
+  }
+  .left-side{
+
+ flex:1;
+ height:500px;
+ 
+
+  }
+  .right-side{
+ flex:1;
+  }
+  .mix{
+    display: flex;
+  }
+  
+  
+  .container1{
+   
+    text-align: left;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .val{
+    font-size: 50px;
+    font-weight: 700;
+
+  }
+  .val2{
+    color:rgb(182, 182, 182);
+    margin-bottom: 5px;
+  }
+  .container2{
+
+    height:400px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+  }
+  .left1{
+    flex: 1;
+    margin-right:40px;
+  }
+  .right1{
+    flex:1;
+    margin-left: 40px;
+
+  }
+  .text{
+    text-align: left;
+    color: white;
+    margin-bottom: 2px;
+  }
+ .progress{
+  margin-bottom: 30px;
+ }
