@@ -4,6 +4,7 @@ import BackIm from './components/BackIm/BackIm';
 import Navbar from './components/Navbar';
 import About from './components/About/About';
 import Resume from './components/Resume/Resume';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function Content() {
         <Route path='/' element={<h1>Welcome to the Homepage</h1>} />
         <Route path='/about' element={<About />} />
         <Route path='/resume' element={<Resume/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
 
       {/* Render BackIm only on the homepage */}
