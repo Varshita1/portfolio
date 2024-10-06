@@ -1,0 +1,14 @@
+body {
+    background-image: url('/public/p1.jpg'); /* Add your image URL */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repetition of the image */
+    height: 100vh; /* Set the height of the background to the full viewport height */
+    margin: 0; /* Remove default body margin */
+  }
+  
+  .container-fluid {
+    position: relative;
+    z-index: 10; /* Ensure that the content appears over the background */
+  }
+  

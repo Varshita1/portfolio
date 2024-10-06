@@ -4,18 +4,30 @@
     background-size: cover;
     background-position: center;    
     height: fit-content;
+    width: fit-content;
   }
  
-  .p1{
+  .pyx{
     color:gainsboro;
     font-size: 26px;
     padding-top: 100px;
   }
-  .p2{
+  @media(max-width:700px){
+    .pyx{
+     font-size: 12px;
+    }
+}
+  .pyz{
     color:white;
     font-size: 70px;
     font-weight:600;
   }
+  @media(max-width:700px){
+      .pyz{
+       font-size: 20px;
+      }
+  }
+ 
   .p3{
     color:rgb(46, 161, 46);
     font-size: 30px;
@@ -33,6 +45,11 @@
     height: 400px;
     width: 50%;
   }
+  @media(max-width:700px){
+    .photo img{
+    height:200px;
+    }
+}
   
   .main {
    
@@ -43,6 +60,7 @@
   }
   .merge{
     display: flex;
+    
   }
   .intro {
     font-size: 36px;
@@ -51,12 +69,32 @@
     text-align:left;
     color:white;
   }
+  @media(max-width:1400px){
+    .intro{
+      font-size: 20px;
+    }
+  }
+  @media(max-width:700px){
+    .intro{
+      font-size: 12px;
+      width: 200px;
+    }
+  }
+ 
+
   .final{
   
     margin-left: 10px;
-    margin-right: 180px;
+    margin-right: 100px;
     height: 600px;
+   
 
+  }
+  @media(max-width:1400px)
+  {
+    .final{
+   padding-right: 10px;
+    }
   }
   .value{
     text-align:left;
@@ -64,9 +102,19 @@
     font-family: poppins;
     margin-top: 12px;
   }
+  @media(max-width:1400px){
+    .value{
+      font-size: 12px;
+    }
+  }
   .value2{
     text-align:left;
     color:rgb(181, 178, 178);
     font-family:poppins;
     margin-top: 22px;
+  }
+  @media(max-width:1400px){
+    .value2{
+      font-size: 12px;
+    }
   }

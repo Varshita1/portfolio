@@ -8,7 +8,7 @@ const Resume = () => {
             <p className="p1">check out my resume</p>
             <p className="p2">Resume</p>
             <a href="/22JE1060__VARSHITA__SDE.pdf" download="Varshita Resume">
-            <button type="button" class="btn btn-success" style = {{height:'50px',width:'300px', font:'60px',borderRadius:'30px'}}>Download Resume</button>
+            <button type="button" class="btn btn-success" style = {{height:'50px',width:'300px', font:'60px',borderRadius:'30px',alignContent:'center'}}>Download Resume</button>
             </a>
         </div>
         <div className="container1">

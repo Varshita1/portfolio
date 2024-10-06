@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="back1">
         <div className="about">
-        <p className="p1">Get to know me</p>
-        <p className="p2">About Me</p>
+        <p className="pyx">Get to know me</p>
+        <p className="pyz">About Me</p>
         </div>
         <div className="merge">
         <div className="photo">

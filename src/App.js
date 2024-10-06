@@ -21,14 +21,14 @@ function Content() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<h1>Welcome to the Homepage</h1>} />
+        <Route path='/' element={<BackIm />} />
         <Route path='/about' element={<About />} />
         <Route path='/resume' element={<Resume/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
 
       {/* Render BackIm only on the homepage */}
-      {location.pathname === '/' && <BackIm />}
+   {/*  {location.pathname === '/' && <BackIm />} */}
     </>
   );
 }
